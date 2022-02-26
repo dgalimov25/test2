@@ -4,21 +4,62 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 body {
-    background-image: url(bg.jpg);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .center {
     display: flex;
     justify-content: center;
 }
 #header {
-    margin: 50px 0;
+    margin-bottom: 50px;
     padding: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
     color: #fff;
-    background-color: #6495ed;
+    background-color: #000000;
+    font-size: 20px;
+    box-shadow: 0 20px 20px rgba(34, 60, 80, 0.6);
+}
+#start {
+    margin-top: 50px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #ff8c00;
     border: 3px solid #fff;
     font-size: 20px;
     border-radius: 30px;
+}
+#role-form {
+    box-shadow: 0 10px 10px rgba(34, 60, 80, 0.6) inset;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ff8c00;
+    border: 3px solid #fff;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+#role-select {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #000;
+}
+#role-submit {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 2px solid #000;
 }

@@ -1,7 +1,12 @@
-let e_score = document.getElementById('score')
-let score = 0
+// let hrefs = window.location.href.split('/')
+// let fileName = hrefs[hrefs.length - 1]
 
-document.getElementById('click').onclick = function () {
-    score++
-    e_score.innerHTML = score
-}
+// switch (fileName) {
+//     case 'index.html':
+//         document.getElementById('start').onclick = function () {
+//             window.location.href = 'selectRole.html'
+//         }
+//         break
+//     case 'selectRole.html':
+//         break
+// }
